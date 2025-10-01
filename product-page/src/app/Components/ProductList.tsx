@@ -40,8 +40,6 @@ export function ProductList({
             Discover our collection of {products.length} amazing products
           </p>
         </header>
-
-        {/* Filters + Sort */}
         <div className="bg-[#F5F5F0] rounded-xl shadow-md p-4 mb-8 flex flex-wrap gap-4 items-center">
           <div className="flex items-center gap-2">
             <Filter size={20} className="text-gray-600" />
@@ -73,8 +71,6 @@ export function ProductList({
             </button>
           </div>
         </div>
-
-        {/* Product Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products.map((p) => (
             <ProductCard

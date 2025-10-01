@@ -25,10 +25,8 @@ export function ProductDetail({
 
         <div className="bg-[#F5F5F0] rounded-2xl shadow-xl overflow-hidden">
           <div className="grid md:grid-cols-2 gap-8 p-6 md:p-10">
-            {/* Carousel */}
             <ImageCarousel images={product.images} title={product.title} />
 
-            {/* Details */}
             <div className="flex flex-col">
               <span className="inline-block px-3 py-1 bg-[#C2A68C] text-[#F5F5F0] rounded-full text-sm font-medium mb-3 w-fit">
                 {product.category.toUpperCase()}
