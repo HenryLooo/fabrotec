@@ -1,5 +1,7 @@
 "use client";
 import { Filter, ArrowUpDown } from "lucide-react";
+//npm install lucide-react
+//ctrl shift p >typscript restart ts server if still getting flagged by eslint
 import { Product } from "../types/Product";
 import { ProductCard } from "./ProductCard";
 

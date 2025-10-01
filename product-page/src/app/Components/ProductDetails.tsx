@@ -1,5 +1,7 @@
 "use client";
 import { ChevronLeft } from "lucide-react";
+//npm install lucide-react
+//ctrl shift p >typscript restart ts server if still getting flagged by eslint
 import { Product } from "../types/Product";
 import { ImageCarousel } from "../ImageCarousel";
 
